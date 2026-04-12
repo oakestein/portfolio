@@ -94,7 +94,7 @@ p {
 /* ヘッダー */
 
 .page-header {
-  margin-bottom: 24rem;
+  margin-bottom: 28rem;
 }
 
 .page-header a {
@@ -345,8 +345,8 @@ body::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* 中央揃え */
     height: 100vh;
+    padding-top: 2rem;
   }
 
   nav {
