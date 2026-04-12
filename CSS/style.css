@@ -308,6 +308,11 @@ body::before {
   color: #fff;
 }
 
+.copyright .copyright-ja {
+  color: #fff;
+  font-size: .7rem;
+}
+
 /* デスクトップ版 */
 @media(min-width: 768px) {
 
