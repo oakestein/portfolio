@@ -145,7 +145,7 @@ nav {
 body::before {
   content: '';
   position: fixed;
-  top: 27.5%;
+  top: 28%;
   left: 50%;
   width: 160vw;
   height: 160vw;
