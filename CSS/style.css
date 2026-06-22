@@ -254,6 +254,10 @@ body::before {
   display: none;
 }
 
+.h2shop {
+  margin-top: 1rem;
+}
+
 /* メイン/About */
 
 .profile {
