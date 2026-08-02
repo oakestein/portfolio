@@ -236,6 +236,13 @@ body::before {
   text-align: center;
 }
 
+.order-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 0 .75rem;
+}
+
 /* メイン/LINEスタンプ */
 
 .bn-lineStamp {
@@ -262,14 +269,14 @@ body::before {
 
 .profile {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 1rem;
 }
 
 .doubutsu {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   margin-top: .75rem;
 }
@@ -427,6 +434,11 @@ body::before {
     height: auto;
   }
 
+  .order-images {
+    width: 70%;
+    height: auto;
+    margin: 1rem auto 0;
+  }
   .shop-button {
     gap: 1rem;
   }
@@ -446,7 +458,6 @@ body::before {
   .doubutsu {
     flex-direction: row;
     gap: 2rem;
-    justify-content: center;
   }
 
   .doubutsu .profile {
